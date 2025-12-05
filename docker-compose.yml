@@ -1,0 +1,24 @@
+services:
+  alice:
+    build: .
+    container_name: alice_vm
+    command: python game_node.py server
+    stdin_open: true
+    tty: true
+    networks:
+      - dicenet
+
+  bob:
+    build: .
+    container_name: bob_vm
+    command: python game_node.py client
+    environment:
+      - SERVER_IP=alice
+    depends_on:
+      - alice
+    networks:
+      - dicenet
+
+networks:
+  dicenet:
+    driver: bridge
