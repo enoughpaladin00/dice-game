@@ -3,7 +3,7 @@
 ## Overview
 This project implements a secure, distributed dice game between two parties (Alice and Bob) using a **Commit-then-Reveal** protocol to ensure fairness without a Trusted Third Party. The application is containerized using Docker to simulate two distinct nodes communicating over TCP.
 
-**Course:** Cybersecurity (Sapienza University of Rome)  
+**Course:** Cybersecurity  
 **Author:** Jacopo Rossi
 
 ## Features
@@ -19,20 +19,22 @@ This project implements a secure, distributed dice game between two parties (Ali
 1. **Start the Environment**
    ```bash
    docker compose up -d --build
-   '''
+   ```
 
 2. **See the output**
    **Alice(Server)**
    Attach to Alice's container to set game parameters
-   '''bash
+   ```bash
    docker attach alice_vm
-   '''
+   ```
 
    **Bob(Client)**
    Open a new terminal to view Bob's output (He connects automatically)
-   '''bash
-   docker logs -f bob_vm'''
+   ```bash
+   docker logs -f bob_vm
+   ```
 
 3. **Shutdown**
-   '''bash
-   docker compose down'''
+   ```bash
+   docker compose down
+   ```
