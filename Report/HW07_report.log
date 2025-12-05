@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.11.21)  5 DEC 2025 17:37
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.11.21)  5 DEC 2025 17:39
  restricted system commands enabled.
 **HW07_report.tex
 (./HW07_report.tex
@@ -663,7 +663,7 @@ Here is how much of LuaTeX's memory you used:
  570 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 6 kern, 1 penalty, 3 glyph, 11
  attribute, 54 glue_spec, 11 attribute_list, 1 write nodes
-   avail lists: 1:7,2:2254,3:261,4:3356,5:3224,6:74,7:6949,8:52,9:8093,10:29,11:
+   avail lists: 1:7,2:2254,3:261,4:3356,5:3224,6:74,7:6918,8:45,9:8093,10:29,11:
 478
  38475 multiletter control sequences out of 65536+600000
  76 fonts using 5813991 bytes
@@ -681,7 +681,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on HW07_report.pdf (4 pages, 100372 bytes).
+Output written on HW07_report.pdf (4 pages, 100354 bytes).
 
 PDF statistics: 202 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
