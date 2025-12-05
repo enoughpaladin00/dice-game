@@ -22,13 +22,11 @@ This project implements a secure, distributed dice game between two parties (Ali
    ```
 
 2. **See the output**
-   **Alice(Server)**
    Attach to Alice's container to set game parameters
    ```bash
    docker attach alice_vm
    ```
-
-   **Bob(Client)**
+   
    Open a new terminal to view Bob's output (He connects automatically)
    ```bash
    docker logs -f bob_vm
